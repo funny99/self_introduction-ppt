@@ -51,7 +51,7 @@ function toPage(type){
     $box.style['transform'] = `translate3d(-${100 * toPageIndex}%, 0px, 0px)`;
 
     const tip = $toPage.getAttribute('data-tip');
-    if(tip){
+    if(tip){ // TODO
 
     }
 }
